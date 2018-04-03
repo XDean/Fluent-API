@@ -7,7 +7,7 @@
 	<version>1.0</version>
 	<packaging>jar</packaging>
 	<url>https://github.com/XDean/Fluent-API</url>
-  <name>Fluent API</name>
+	<name>Fluent API</name>
 	<description>Common API for chain style API design</description>
 
 	<properties>
@@ -17,6 +17,12 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>io.reactivex.rxjava2</groupId>
+			<artifactId>rxjava</artifactId>
+			<version>2.1.9</version>
+			<optional>true</optional>
+		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
